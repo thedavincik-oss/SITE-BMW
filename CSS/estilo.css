@@ -1,0 +1,57 @@
+#carrosselBmw .carousel-item img {
+  height: 500px; 
+  width: 100%;
+  object-fit: cover;
+}
+#carrosselBmw .carousel-indicators {
+    bottom: 10px; /* distância do fundo */
+}
+
+#carrosselBmw .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; /* vira bolinhas */
+    background-color: white;
+    opacity: 0.5;
+}
+
+#carrosselBmw .carousel-indicators button.active {
+    opacity: 1;
+}
+#carrosselDepoimentos .carousel-control-prev-icon,
+#carrosselDepoimentos .carousel-control-next-icon {
+    filter: invert(1);
+}
+.fa-brands:hover {
+  color: #1c6ef2;
+}
+.fa-brands {
+  font-size: 1.3rem;
+  transition: transform 0.2s;
+}
+
+.fa-brands:hover {
+  transform: scale(1.4);
+}
+.hero-sobre {
+  background-color: #000a76;
+}
+.hero-produtos {
+  background-image: url('../Imagens/fotodecantobmw.jpg');
+  background-size: cover;
+  background-position: right;
+  min-height: 400px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-bottom: 40px;
+}
+.card-efeito {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.card-efeito:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4) !important; 
+    z-index: 1;
+}
